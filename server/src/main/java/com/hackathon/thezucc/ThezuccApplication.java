@@ -1,6 +1,7 @@
 package com.hackathon.thezucc;
 
 import com.github.javafaker.Faker;
+import com.hackathon.thezucc.users.model.Fundraiser;
 import com.hackathon.thezucc.users.model.User;
 import com.hackathon.thezucc.users.repository.UsersRespository;
 import lombok.RequiredArgsConstructor;
@@ -8,8 +9,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import javax.annotation.PostConstruct;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 @SpringBootApplication
 @RequiredArgsConstructor
@@ -45,12 +45,24 @@ public class ThezuccApplication {
 
             int blockNumber = i / 10;
 
+            List<Fundraiser> fundraisers = new ArrayList<>();
+            for (int j = 0; j < new Random().nextInt(3); i++) {
+
+                int random = new Random().nextInt(100000);
+                fundraisers.add(Fundraiser.builder()
+                        .name(faker.animal().name().toUpperCase() + " Fund")
+                        .goal(random)
+                        .totalSoFar(new Random().nextInt(random))
+                        .build());
+            }
+
             User user = User.builder()
                     .firstName(first)
                     .lastName(last)
                     .qrId(i)
                     .blockNumber(blockNumber)
                     .neighborhood(neighborhoods.get(blockNumber % 10))
+                    .fundraisers(fundraisers)
                     .build();
             usersRespository.save(user);
         }
