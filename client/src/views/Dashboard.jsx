@@ -62,8 +62,8 @@ class Dashboard extends Component {
             </Col>
             <Col lg={3} sm={6}>
               <StatsCard
-                bigIcon={<i className="pe-7s-wallet text-success" />}
-                statsText="Budget Balance Remaining"
+                bigIcon={<i className="pe-7s-piggy text-success" />}
+                statsText="Budget Remaining"
                 statsValue="$1,345"
                 statsIcon={<i className="fa fa-calendar-o" />}
                 statsIconText="Last day"
@@ -71,7 +71,7 @@ class Dashboard extends Component {
             </Col>
             <Col lg={3} sm={6}>
               <StatsCard
-                  bigIcon={<i className="pe-7s-wallet text-success" />}
+                  bigIcon={<i className="pe-7s-date text-success" />}
                 statsText="Upcoming Meeting"
                 statsValue="11/15"
                   statsIcon={<i className="fa fa-calendar-o" />}
