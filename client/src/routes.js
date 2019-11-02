@@ -34,12 +34,6 @@ const dashboardRoutes = [
     layout: "/admin"
   },
   {
-    path: "/login",
-    name: "Login",
-    component: Login,
-    layout: "/admin"
-  },
-  {
     path: "/user",
     name: "User Profile",
     icon: "pe-7s-user",
@@ -72,13 +66,6 @@ const dashboardRoutes = [
     name: "Find My Block",
     icon: "pe-7s-map-marker",
     component: Maps,
-    layout: "/admin"
-  },
-  {
-    path: "/notifications",
-    name: "Notifications",
-    icon: "pe-7s-bell",
-    component: Notifications,
     layout: "/admin"
   },
 
