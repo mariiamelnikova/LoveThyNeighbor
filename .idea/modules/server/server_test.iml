@@ -57,5 +57,4 @@
     <orderEntry type="library" name="Gradle: org.ow2.asm:asm:5.0.4" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.platform:junit-platform-engine:1.5.2" level="project" />
   </component>
-  <component name="TestModuleProperties" production-module="server_main" />
 </module>
