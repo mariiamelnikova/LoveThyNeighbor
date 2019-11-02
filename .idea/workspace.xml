@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Downloads/demo 2" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/thezucc 2" value="PREVIEW" />
+        <entry key="$USER_HOME$/Downloads/thezucc/server" value="PREVIEW" />
+        <entry key="$USER_HOME$/Workspace/Mockingbird/atticus" value="PREVIEW" />
+        <entry key="$USER_HOME$/Workspace/Mockingbird/boo" value="PREVIEW" />
+        <entry key="$USER_HOME$/Workspace/Mockingbird/cal" value="PREVIEW" />
+        <entry key="$USER_HOME$/Workspace/Mockingbird/ivr-sim" value="PREVIEW" />
+        <entry key="$USER_HOME$/Workspace/Mockingbird/jem" value="PREVIEW" />
+        <entry key="$USER_HOME$/Workspace/Mockingbird/rad-pro" value="PREVIEW" />
+        <entry key="$USER_HOME$/Workspace/Mockingbird/scout" value="PREVIEW" />
+        <entry key="$USER_HOME$/Workspace/Nfluence/Hoth" value="PREVIEW" />
+        <entry key="$USER_HOME$/Workspace/Parakeet/Budgerigar" value="PREVIEW" />
+        <entry key="$USER_HOME$/Workspace/Parakeet/Ingkko" value="PREVIEW" />
+        <entry key="$USER_HOME$/Workspace/Parakeet/Parrocchetto" value="PREVIEW" />
+        <entry key="$USER_HOME$/Workspace/Parakeet/Perruche" value="PREVIEW" />
+        <entry key="$USER_HOME$/Workspace/Parakeet/goose" value="PREVIEW" />
+        <entry key="$USER_HOME$/Workspace/Parakeet/gyra" value="PREVIEW" />
+        <entry key="$USER_HOME$/Workspace/Parakeet/parakeet-flock" value="PREVIEW" />
+        <entry key="$USER_HOME$/Workspace/Parakeet/parakeet-sdk" value="PREVIEW" />
+        <entry key="$USER_HOME$/Workspace/Parakeet/starling" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="1027" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572708008912" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ThezuccApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="com.hackathon.server.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hackathon.thezucc.ThezuccApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
