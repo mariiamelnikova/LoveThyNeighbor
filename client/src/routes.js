@@ -23,6 +23,7 @@ import Icons from "views/Icons.jsx";
 import Maps from "views/Maps.jsx";
 import Notifications from "views/Notifications.jsx";
 import Upgrade from "views/Upgrade.jsx";
+import Login from "views/Login.jsx";
 
 const dashboardRoutes = [
   {
@@ -30,6 +31,12 @@ const dashboardRoutes = [
     name: "Dashboard",
     icon: "pe-7s-graph",
     component: Dashboard,
+    layout: "/admin"
+  },
+  {
+    path: "/login",
+    name: "Login",
+    component: Login,
     layout: "/admin"
   },
   {
@@ -41,28 +48,28 @@ const dashboardRoutes = [
   },
   {
     path: "/table",
-    name: "Table List",
+    name: "Events",
     icon: "pe-7s-note2",
     component: TableList,
     layout: "/admin"
   },
   {
     path: "/typography",
-    name: "Typography",
+    name: "Fundraising",
     icon: "pe-7s-news-paper",
     component: Typography,
     layout: "/admin"
   },
   {
     path: "/icons",
-    name: "Icons",
+    name: "Donate",
     icon: "pe-7s-science",
     component: Icons,
     layout: "/admin"
   },
   {
     path: "/maps",
-    name: "Maps",
+    name: "Find my Block",
     icon: "pe-7s-map-marker",
     component: Maps,
     layout: "/admin"
