@@ -31,6 +31,22 @@ server/.idea/vcs.xml
 server/.idea/workspace.xml
 server/.gradle/*
 
+server/src/.idea/dataSources
+server/src/.idea/inspectionProfiles
+server/src/.idea/libraries
+server/src/.idea/modules
+server/src/.idea/compiler.xml
+server/src/.idea/dataSources.local.xml
+server/src/.idea/encodings.xml
+server/src/.idea/gradle.xml
+server/src/.idea/misc.xml
+server/src/.idea/modules.xml
+server/src/.idea/sqldialects.xml
+server/src/.idea/uiDesigner.xml
+server/src/.idea/vcs.xml
+server/src/.idea/workspace.xml
+server/src/.gradle/*
+
 
 .idea/dataSources
 .idea/inspectionProfiles
