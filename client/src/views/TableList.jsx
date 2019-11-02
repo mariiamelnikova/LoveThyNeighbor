@@ -29,8 +29,8 @@ class TableList extends Component {
           <Row>
             <Col md={12}>
               <Card
-                title="Striped Table with Hover"
-                category="Here is a subtitle for this table"
+                title="Current Events"
+                category="See the full list of events and join today"
                 ctTableFullWidth
                 ctTableResponsive
                 content={
@@ -61,8 +61,8 @@ class TableList extends Component {
             <Col md={12}>
               <Card
                 plain
-                title="Striped Table with Hover"
-                category="Here is a subtitle for this table"
+                title="Past Events"
+                category="See the full list of previously held events"
                 ctTableFullWidth
                 ctTableResponsive
                 content={
