@@ -22,6 +22,11 @@ public class UsersController {
 
         try {
             User byQrId = usersRespository.findByQrId(id);
+
+            if (byQrId == null) {
+                throw new Exception("User not found: " + id);
+            }
+
             return new ResponseEntity<>(byQrId, HttpStatus.OK);
         } catch (Exception e) {
 

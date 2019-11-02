@@ -20,4 +20,5 @@ public class User {
     private long qrId;
     private String firstName;
     private String lastName;
+    private long district;
 }
