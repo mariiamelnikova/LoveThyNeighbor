@@ -72,7 +72,7 @@ const useStyles = makeStyles(theme => ({
     },
     imageTitle: {
         position: 'relative',
-        padding: ${theme.spacing(2)}px ${theme.spacing(4)}px ${theme.spacing(1) + 6}px,
+        padding: `${theme.spacing(2)}px ${theme.spacing(4)}px ${theme.spacing(1) + 6}px`,
     },
     imageMarked: {
         height: 3,
@@ -105,7 +105,7 @@ export default function ButtonBases() {
           <span
               className={classes.imageSrc}
               style={{
-                  backgroundImage: url(${image.url}),
+                  backgroundImage: `url(${image.url})`,
               }}
           />
                     <span className={classes.imageBackdrop} />
