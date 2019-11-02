@@ -1,2 +1,8 @@
 package-lock.json
 node_modules/
+compiler.xml
+gradle.xml
+misc.xml
+workspace.xml
+vcs.xml
+uiDesigner.xml

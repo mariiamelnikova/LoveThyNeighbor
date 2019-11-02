@@ -1,173 +1,126 @@
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import ButtonBase from '@material-ui/core/ButtonBase';
+import Typography from '@material-ui/core/Typography';
 
-import React, { Component } from "react";
-import {
-    Grid,
-    Row,
-    Col,
-    FormGroup,
-    ControlLabel,
-    FormControl
-} from "react-bootstrap";
-
-import { Card } from "components/Card/Card.jsx";
-import { FormInputs } from "components/FormInputs/FormInputs.jsx";
-import { UserCard } from "components/UserCard/UserCard.jsx";
-import Button from "components/CustomButton/CustomButton.jsx";
-
-import avatar from "assets/img/faces/face-3.jpg";
-
-class Login extends Component {
-    render() {
-        return (
-            <div className="content">
-                <Grid fluid>
-                    <Row>
-                        <Col md={8}>
-                            <Card
-                                title="Edit Profile"
-                                content={
-                                    <form>
-                                        <FormInputs
-                                            ncols={["col-md-5", "col-md-3", "col-md-4"]}
-                                            properties={[
-                                                {
-                                                    label: "Company (disabled)",
-                                                    type: "text",
-                                                    bsClass: "form-control",
-                                                    placeholder: "Company",
-                                                    defaultValue: "Creative Code Inc.",
-                                                    disabled: true
-                                                },
-                                                {
-                                                    label: "Username",
-                                                    type: "text",
-                                                    bsClass: "form-control",
-                                                    placeholder: "Username",
-                                                    defaultValue: "michael23"
-                                                },
-                                                {
-                                                    label: "Email address",
-                                                    type: "email",
-                                                    bsClass: "form-control",
-                                                    placeholder: "Email"
-                                                }
-                                            ]}
-                                        />
-                                        <FormInputs
-                                            ncols={["col-md-6", "col-md-6"]}
-                                            properties={[
-                                                {
-                                                    label: "First name",
-                                                    type: "text",
-                                                    bsClass: "form-control",
-                                                    placeholder: "First name",
-                                                    defaultValue: "Mike"
-                                                },
-                                                {
-                                                    label: "Last name",
-                                                    type: "text",
-                                                    bsClass: "form-control",
-                                                    placeholder: "Last name",
-                                                    defaultValue: "Andrew"
-                                                }
-                                            ]}
-                                        />
-                                        <FormInputs
-                                            ncols={["col-md-12"]}
-                                            properties={[
-                                                {
-                                                    label: "Adress",
-                                                    type: "text",
-                                                    bsClass: "form-control",
-                                                    placeholder: "Home Adress",
-                                                    defaultValue:
-                                                        "Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09"
-                                                }
-                                            ]}
-                                        />
-                                        <FormInputs
-                                            ncols={["col-md-4", "col-md-4", "col-md-4"]}
-                                            properties={[
-                                                {
-                                                    label: "City",
-                                                    type: "text",
-                                                    bsClass: "form-control",
-                                                    placeholder: "City",
-                                                    defaultValue: "Mike"
-                                                },
-                                                {
-                                                    label: "Country",
-                                                    type: "text",
-                                                    bsClass: "form-control",
-                                                    placeholder: "Country",
-                                                    defaultValue: "Andrew"
-                                                },
-                                                {
-                                                    label: "Postal Code",
-                                                    type: "number",
-                                                    bsClass: "form-control",
-                                                    placeholder: "ZIP Code"
-                                                }
-                                            ]}
-                                        />
-
-                                        <Row>
-                                            <Col md={12}>
-                                                <FormGroup controlId="formControlsTextarea">
-                                                    <ControlLabel>About Me</ControlLabel>
-                                                    <FormControl
-                                                        rows="5"
-                                                        componentClass="textarea"
-                                                        bsClass="form-control"
-                                                        placeholder="Here can be your description"
-                                                        defaultValue="Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo."
-                                                    />
-                                                </FormGroup>
-                                            </Col>
-                                        </Row>
-                                        <Button bsStyle="info" pullRight fill type="submit">
-                                            Update Profile
-                                        </Button>
-                                        <div className="clearfix" />
-                                    </form>
-                                }
-                            />
-                        </Col>
-                        <Col md={4}>
-                            <UserCard
-                                bgImage="https://ununsplash.imgix.net/photo-1431578500526-4d9613015464?fit=crop&fm=jpg&h=300&q=75&w=400"
-                                avatar={avatar}
-                                name="Mike Andrew"
-                                userName="michael24"
-                                description={
-                                    <span>
-                    "Lamborghini Mercy
-                    <br />
-                    Your chick she so thirsty
-                    <br />
-                    I'm in that two seat Lambo"
-                  </span>
-                                }
-                                socials={
-                                    <div>
-                                        <Button simple>
-                                            <i className="fa fa-facebook-square" />
-                                        </Button>
-                                        <Button simple>
-                                            <i className="fa fa-twitter" />
-                                        </Button>
-                                        <Button simple>
-                                            <i className="fa fa-google-plus-square" />
-                                        </Button>
-                                    </div>
-                                }
-                            />
-                        </Col>
-                    </Row>
-                </Grid>
-            </div>
-        );
+const images = [
+    {
+        url: '/static/images/grid-list/breakfast.jpg',
+        title: 'Login',
+        width: '100%',
+        height: '100%'
     }
-}
+];
 
-export default Login;
+const useStyles = makeStyles(theme => ({
+    root: {
+        display: 'flex',
+        flexWrap: 'wrap',
+        minWidth: 300,
+        width: '100%',
+    },
+    image: {
+        position: 'relative',
+        height: 200,
+        [theme.breakpoints.down('xs')]: {
+            width: '100% !important', // Overrides inline-style
+            height: 100,
+        },
+        '&:hover, &$focusVisible': {
+            zIndex: 1,
+            '& $imageBackdrop': {
+                opacity: 0.15,
+            },
+            '& $imageMarked': {
+                opacity: 0,
+            },
+            '& $imageTitle': {
+                border: '4px solid currentColor',
+            },
+        },
+    },
+    focusVisible: {},
+    imageButton: {
+        position: 'absolute',
+        left: 0,
+        right: 0,
+        top: 0,
+        bottom: 0,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        color: theme.palette.common.white,
+    },
+    imageSrc: {
+        position: 'absolute',
+        left: 0,
+        right: 0,
+        top: 0,
+        bottom: 0,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center 40%',
+    },
+    imageBackdrop: {
+        position: 'absolute',
+        left: 0,
+        right: 0,
+        top: 0,
+        bottom: 0,
+        backgroundColor: theme.palette.common.black,
+        opacity: 0.4,
+        transition: theme.transitions.create('opacity'),
+    },
+    imageTitle: {
+        position: 'relative',
+        padding: `${theme.spacing(2)}px ${theme.spacing(4)}px ${theme.spacing(1) + 6}px`,
+    },
+    imageMarked: {
+        height: 3,
+        width: 18,
+        backgroundColor: theme.palette.common.white,
+        position: 'absolute',
+        bottom: -2,
+        left: 'calc(50% - 9px)',
+        transition: theme.transitions.create('opacity'),
+    },
+}));
+
+export default function ButtonBases() {
+    const classes = useStyles();
+
+    return (
+        <div
+            className={classes.root}>
+            {images.map(image => (
+                <ButtonBase
+                    focusRipple
+                    key={image.title}
+                    className={classes.image}
+                    focusVisibleClassName={classes.focusVisible}
+                    style={{
+                        width: image.width,
+                    }}
+                >
+          <span
+              className={classes.imageSrc}
+              style={{
+                  backgroundImage: `url(${image.url})`,
+              }}
+          />
+                    <span className={classes.imageBackdrop} />
+                    <span className={classes.imageButton}>
+            <Typography
+                component="span"
+                variant="subtitle1"
+                color="inherit"
+                className={classes.imageTitle}
+            >
+              {image.title}
+                <span className={classes.imageMarked} />
+            </Typography>
+          </span>
+                </ButtonBase>
+            ))}
+        </div>
+    );
+}
