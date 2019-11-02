@@ -1,5 +1,6 @@
 package com.hackathon.thezucc.users.controller;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.hackathon.thezucc.users.model.User;
 import com.hackathon.thezucc.users.repository.UsersRespository;
 import lombok.RequiredArgsConstructor;
@@ -20,7 +21,7 @@ public class BlockNumber {
     private final UsersRespository usersRespository;
 
     @GetMapping("/users/block/{blockNumber}")
-    public List<User> findByBlockNumber(@PathVariable int blockNumber) {
+    public ResponseEntity<String> findByBlockNumber(@PathVariable int blockNumber) {
 
         try {
             List<User> users = usersRespository.findAllByBlockNumber(blockNumber);
@@ -29,11 +30,12 @@ public class BlockNumber {
                 throw new Exception("No users with that block id: " + blockNumber);
             }
 
-            return users;
+            String s = new ObjectMapper().writeValueAsString(users);
+            return new ResponseEntity<>(s, HttpStatus.OK);
         } catch (Exception e) {
 
             e.printStackTrace();
-            return null;
+            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
         }
     }
 }
