@@ -266,14 +266,14 @@ var style = {
 // // // For tables
 // //
 //
-const thArray = ["ID", "Name", "Salary", "Country", "City"];
+const thArray = ["#", "Name", "Cost", "Date", "Time"];
 const tdArray = [
-  ["1", "Dakota Rice", "$36,738", "Niger", "Oud-Turnhout"],
-  ["2", "Minerva Hooper", "$23,789", "Curaçao", "Sinaai-Waas"],
-  ["3", "Sage Rodriguez", "$56,142", "Netherlands", "Baileux"],
-  ["4", "Philip Chaney", "$38,735", "Korea, South", "Overland Park"],
-  ["5", "Doris Greene", "$63,542", "Malawi", "Feldkirchen in Kärnten"],
-  ["6", "Mason Porter", "$78,615", "Chile", "Gloucester"]
+  ["1", "Halloween Bash", "$150", "10/31/2019", "3pm-6pm"],
+  ["2", "Friendsgiving Potluck", "$0", "11/28/2019", "7pm-10pm"],
+  ["3", "Jim's Birthday", "$100", "12/1/2019", "7pm-10pm"],
+  ["4", "End of Year Fundraiser", "$0", "12/15/2019", "12pm-6pm"],
+  ["5", "Christmas", "$250", "12/25/2019", "7pm-10pm"],
+  ["6", "New Years Eve Party", "$100", "12/31/2019", "9pm-1am"]
 ];
 
 //
