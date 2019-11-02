@@ -26,4 +26,8 @@ public class User {
     private String firstName;
     private String lastName;
     private List<Fundraiser> fundraisers;
+    private double nLat;
+    private double nLon;
+    private double lat;
+    private double lon;
 }
