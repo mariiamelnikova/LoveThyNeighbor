@@ -69,7 +69,7 @@ const dashboardRoutes = [
   },
   {
     path: "/maps",
-    name: "Find my Block",
+    name: "Find My Block",
     icon: "pe-7s-map-marker",
     component: Maps,
     layout: "/admin"
