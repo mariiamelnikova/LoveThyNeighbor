@@ -514,14 +514,12 @@ var dataSales = {
     "6:00AM"
   ],
   series: [
-    [287, 385, 490, 492, 554, 586, 698, 695],
-    [67, 152, 143, 240, 287, 335, 435, 437],
-    [23, 113, 67, 108, 190, 239, 307, 308]
+    [0, 10, 15, 50, 70, 77, 100, 120],
   ]
 };
 var optionsSales = {
   low: 0,
-  high: 800,
+  high: 150,
   showArea: false,
   height: "245px",
   axisX: {
@@ -548,7 +546,7 @@ var responsiveSales = [
   ]
 ];
 var legendSales = {
-  names: ["Open", "Click", "Click Second Time"],
+  names: ["Dollars Received"],
   types: ["info", "danger", "warning"]
 };
 
