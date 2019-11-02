@@ -1,110 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$USER_HOME$/Downloads/demo 2" value="PREVIEW" />
-        <entry key="$USER_HOME$/Downloads/thezucc 2" value="PREVIEW" />
-        <entry key="$USER_HOME$/Downloads/thezucc/server" value="PREVIEW" />
-        <entry key="$USER_HOME$/Workspace/Mockingbird/atticus" value="PREVIEW" />
-        <entry key="$USER_HOME$/Workspace/Mockingbird/boo" value="PREVIEW" />
-        <entry key="$USER_HOME$/Workspace/Mockingbird/cal" value="PREVIEW" />
-        <entry key="$USER_HOME$/Workspace/Mockingbird/ivr-sim" value="PREVIEW" />
-        <entry key="$USER_HOME$/Workspace/Mockingbird/jem" value="PREVIEW" />
-        <entry key="$USER_HOME$/Workspace/Mockingbird/rad-pro" value="PREVIEW" />
-        <entry key="$USER_HOME$/Workspace/Mockingbird/scout" value="PREVIEW" />
-        <entry key="$USER_HOME$/Workspace/Nfluence/Hoth" value="PREVIEW" />
-        <entry key="$USER_HOME$/Workspace/Parakeet/Budgerigar" value="PREVIEW" />
-        <entry key="$USER_HOME$/Workspace/Parakeet/Ingkko" value="PREVIEW" />
-        <entry key="$USER_HOME$/Workspace/Parakeet/Parrocchetto" value="PREVIEW" />
-        <entry key="$USER_HOME$/Workspace/Parakeet/Perruche" value="PREVIEW" />
-        <entry key="$USER_HOME$/Workspace/Parakeet/goose" value="PREVIEW" />
-        <entry key="$USER_HOME$/Workspace/Parakeet/gyra" value="PREVIEW" />
-        <entry key="$USER_HOME$/Workspace/Parakeet/parakeet-flock" value="PREVIEW" />
-        <entry key="$USER_HOME$/Workspace/Parakeet/parakeet-sdk" value="PREVIEW" />
-        <entry key="$USER_HOME$/Workspace/Parakeet/starling" value="PREVIEW" />
-      </map>
+  <component name="ChangeListManager">
+    <list default="true" id="8a344eb1-7cc9-4f35-80bd-b0afb8a7be00" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/views/Login.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.6.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.2/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/sass/light-bootstrap-dashboard-react.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/sass/light-bootstrap-dashboard-react.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/layouts/Admin.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layouts/Admin.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="1027" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1T4BJG65rQnaFoTqG4BbSqpYFfr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572708008912" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/build.gradle" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ThezuccApplication">
+    <configuration name="Server" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/server" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="ThezuccApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="com.hackathon.server.main" />
+      <module name="LoveThyNeighbor.server.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.hackathon.thezucc.ThezuccApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Gradle.Server" />
+      <item itemvalue="Spring Boot.ThezuccApplication" />
+    </list>
   </component>
-  <component name="masterDetails">
-    <states>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a344eb1-7cc9-4f35-80bd-b0afb8a7be00" name="Default Changelist" comment="" />
+      <created>1572709413419</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572709413419</updated>
+      <workItem from="1572709416466" duration="219000" />
+      <workItem from="1572709683714" duration="250000" />
+      <workItem from="1572709984797" duration="210000" />
+      <workItem from="1572710241889" duration="346000" />
+      <workItem from="1572710602848" duration="2433000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
