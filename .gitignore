@@ -14,6 +14,40 @@ node_modules/
 .springBeans
 
 ### IntelliJ IDEA ###
+
+server/.idea/dataSources
+server/.idea/inspectionProfiles
+server/.idea/libraries
+server/.idea/modules
+server/.idea/compiler.xml
+server/.idea/dataSources.local.xml
+server/.idea/encodings.xml
+server/.idea/gradle.xml
+server/.idea/misc.xml
+server/.idea/modules.xml
+server/.idea/sqldialects.xml
+server/.idea/uiDesigner.xml
+server/.idea/vcs.xml
+server/.idea/workspace.xml
+server/.gradle/*
+
+server/src/.idea/dataSources
+server/src/.idea/inspectionProfiles
+server/src/.idea/libraries
+server/src/.idea/modules
+server/src/.idea/compiler.xml
+server/src/.idea/dataSources.local.xml
+server/src/.idea/encodings.xml
+server/src/.idea/gradle.xml
+server/src/.idea/misc.xml
+server/src/.idea/modules.xml
+server/src/.idea/sqldialects.xml
+server/src/.idea/uiDesigner.xml
+server/src/.idea/vcs.xml
+server/src/.idea/workspace.xml
+server/src/.gradle/*
+
+
 .idea/dataSources
 .idea/inspectionProfiles
 .idea/libraries
@@ -28,7 +62,7 @@ node_modules/
 .idea/uiDesigner.xml
 .idea/vcs.xml
 .idea/workspace.xml
-.gradle
+.gradle/*
 *.iws
 *.iml
 *.ipr
@@ -44,7 +78,6 @@ client/.idea/
 client/.gradle/
 client/dist/
 client/coverage/
-client/src/**/*.css
 .gradle
 classes
 server/build
