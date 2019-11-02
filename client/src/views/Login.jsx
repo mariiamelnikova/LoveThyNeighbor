@@ -107,7 +107,7 @@ export default function ButtonBases() {
                   backgroundImage: `url(${image.url})`,
               }}
           />
-                    <span className={classes.imageBackdrop} />
+                    <span className={classes.imageBackdrop}/>
                     <span className={classes.imageButton}>
             <Typography
                 component="span"
@@ -116,7 +116,7 @@ export default function ButtonBases() {
                 className={classes.imageTitle}
             >
               {image.title}
-                <span className={classes.imageMarked} />
+                <span className={classes.imageMarked}/>
             </Typography>
           </span>
                 </ButtonBase>

@@ -1,5 +1,6 @@
 package com.hackathon.thezucc.users.controller;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.hackathon.thezucc.users.model.User;
 import com.hackathon.thezucc.users.repository.UsersRespository;
 import lombok.RequiredArgsConstructor;
@@ -18,7 +19,7 @@ public class UsersController {
     private final UsersRespository usersRespository;
 
     @GetMapping("/users/{id}")
-    public ResponseEntity<User> getUsers(@PathVariable Long id) {
+    public ResponseEntity<String> getUsers(@PathVariable Long id) {
 
         try {
             User byQrId = usersRespository.findByQrId(id);
@@ -27,7 +28,10 @@ public class UsersController {
                 throw new Exception("User not found: " + id);
             }
 
-            return new ResponseEntity<>(byQrId, HttpStatus.OK);
+            ObjectMapper objectMapper = new ObjectMapper();
+
+            String s = objectMapper.writeValueAsString(byQrId);
+            return new ResponseEntity<>(s, HttpStatus.OK);
         } catch (Exception e) {
 
             e.printStackTrace();
