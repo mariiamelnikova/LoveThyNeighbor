@@ -78,7 +78,6 @@ client/.idea/
 client/.gradle/
 client/dist/
 client/coverage/
-client/src/**/*.css
 .gradle
 classes
 server/build

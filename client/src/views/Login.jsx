@@ -99,6 +99,7 @@ export default function ButtonBases() {
                     focusVisibleClassName={classes.focusVisible}
                     style={{
                         width: image.width,
+                        height: image.height
                     }}
                 >
           <span
