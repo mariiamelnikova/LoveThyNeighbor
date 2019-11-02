@@ -1,6 +1,7 @@
 /*
  * Add your services here
  */
+
 export async function callService(path, method, headerObj, bodyObj) {
     var baseURL = "http://localhost:8080/";
     var fullURL = baseURL + path;
@@ -65,3 +66,20 @@ export async function getUsers(userId) {
 
     return response;
 }
+
+export async function getBlockInfo(blockNumber) {
+    var headerObj = {
+        "Content-Type": "application/json"
+    };
+    var bodyObj = {};
+    var response = await callService(
+        "/users/block/" + blockNumber.toString(),
+        "GET",
+        headerObj,
+        bodyObj
+    );
+
+    return response;
+}
+
+export default getBlockInfo;

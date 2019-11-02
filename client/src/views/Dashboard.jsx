@@ -158,8 +158,8 @@ class Dashboard extends Component {
 
             <Col md={6}>
               <Card
-                title="Tasks"
-                category="Backend development"
+                title="Fundraisers"
+                category="Current fundraisers in your block"
                 stats="Updated 3 minutes ago"
                 statsIcon="fa fa-history"
                 content={

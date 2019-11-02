@@ -19,6 +19,7 @@ import React, { Component } from "react";
 import { Tooltip, OverlayTrigger } from "react-bootstrap";
 import Checkbox from "components/CustomCheckbox/CustomCheckbox.jsx";
 import Button from "components/CustomButton/CustomButton.jsx";
+import getBlockInfo from "../../services.js"
 
 export class Tasks extends Component {
   handleCheckbox = event => {
@@ -28,9 +29,18 @@ export class Tasks extends Component {
       [target.name]: target.checked
     });
   };
+
   render() {
     const edit = <Tooltip id="edit_tooltip">Edit Task</Tooltip>;
     const remove = <Tooltip id="remove_tooltip">Remove</Tooltip>;
+    const response = getBlockInfo("1");
+    console.log(response);
+    // const titles = response.map((blockInfo, index) => {
+    //     console.log(blockInfo);
+    // });
+    // const fundraisers_title = [
+    //     titles
+    // ];
     const tasks_title = [
       'Sign contract for "What are conference organizers afraid of?"',
       "Lines From Great Russian Literature? Or E-mails From My Boss?",

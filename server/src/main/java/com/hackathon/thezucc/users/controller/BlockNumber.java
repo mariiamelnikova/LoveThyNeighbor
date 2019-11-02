@@ -20,7 +20,7 @@ public class BlockNumber {
     private final UsersRespository usersRespository;
 
     @GetMapping("/users/block/{blockNumber}")
-    public ResponseEntity<List<User>> findByBlockNumber(@PathVariable int blockNumber) {
+    public List<User> findByBlockNumber(@PathVariable int blockNumber) {
 
         try {
             List<User> users = usersRespository.findAllByBlockNumber(blockNumber);
@@ -29,11 +29,11 @@ public class BlockNumber {
                 throw new Exception("No users with that block id: " + blockNumber);
             }
 
-            return new ResponseEntity<>(users, HttpStatus.OK);
+            return users;
         } catch (Exception e) {
 
             e.printStackTrace();
-            return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+            return null;
         }
     }
 }
