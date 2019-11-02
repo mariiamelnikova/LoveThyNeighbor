@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a344eb1-7cc9-4f35-80bd-b0afb8a7be00" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/views/Login.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/.idea/src.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.6.2/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.6.2/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/sass/light-bootstrap-dashboard-react.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/sass/light-bootstrap-dashboard-react.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/layouts/Admin.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/layouts/Admin.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes.js" afterDir="false" />
-    </list>
+    <list default="true" id="8a344eb1-7cc9-4f35-80bd-b0afb8a7be00" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +12,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/server">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -124,7 +115,7 @@
       <workItem from="1572709683714" duration="250000" />
       <workItem from="1572709984797" duration="210000" />
       <workItem from="1572710241889" duration="346000" />
-      <workItem from="1572710602848" duration="2433000" />
+      <workItem from="1572710602848" duration="3100000" />
     </task>
     <servers />
   </component>
