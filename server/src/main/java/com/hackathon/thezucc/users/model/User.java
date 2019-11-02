@@ -17,8 +17,10 @@ public class User {
 
     @Id
     private ObjectId _id;
+
     private long qrId;
+    private long blockNumber;
+    private String neighborhood;
     private String firstName;
     private String lastName;
-    private long district;
 }
