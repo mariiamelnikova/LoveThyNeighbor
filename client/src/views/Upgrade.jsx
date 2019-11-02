@@ -87,26 +87,6 @@ class Icons extends Component {
                       <tr>
                         <td />
                         <td>
-                          <Button
-                            href="#"
-                            round
-                            fill
-                            disabled
-                            bsStyle="default"
-                          >
-                            Current Version
-                          </Button>
-                        </td>
-                        <td>
-                          <Button
-                            target="_blank"
-                            href="http://www.creative-tim.com/product/light-bootstrap-dashboard-pro-react/?ref=lbdr-upgrade-page"
-                            round
-                            fill
-                            bsStyle="info"
-                          >
-                            Upgrade to PRO
-                          </Button>
                         </td>
                       </tr>
                     </tbody>

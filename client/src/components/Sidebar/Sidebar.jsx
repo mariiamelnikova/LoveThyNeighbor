@@ -20,7 +20,7 @@ import { NavLink } from "react-router-dom";
 
 import AdminNavbarLinks from "../Navbars/AdminNavbarLinks.jsx";
 
-import logo from "assets/img/reactlogo.png";
+import logo from "assets/img/MMM.jpg";
 
 class Sidebar extends Component {
   constructor(props) {
@@ -77,14 +77,7 @@ class Sidebar extends Component {
             {this.props.routes.map((prop, key) => {
               if (!prop.redirect)
                 return (
-                  <li
-                    className={
-                      prop.upgrade
-                        ? "active active-pro"
-                        : this.activeRoute(prop.layout + prop.path)
-                    }
-                    key={key}
-                  >
+                  <li>
                     <NavLink
                       to={prop.layout + prop.path}
                       className="nav-link"

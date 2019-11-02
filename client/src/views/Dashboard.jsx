@@ -62,8 +62,8 @@ class Dashboard extends Component {
             </Col>
             <Col lg={3} sm={6}>
               <StatsCard
-                bigIcon={<i className="pe-7s-wallet text-success" />}
-                statsText="Budget Balance Remaining"
+                bigIcon={<i className="pe-7s-piggy text-success" />}
+                statsText="Budget Remaining"
                 statsValue="$1,345"
                 statsIcon={<i className="fa fa-calendar-o" />}
                 statsIconText="Last day"
@@ -71,7 +71,7 @@ class Dashboard extends Component {
             </Col>
             <Col lg={3} sm={6}>
               <StatsCard
-                  bigIcon={<i className="pe-7s-wallet text-success" />}
+                  bigIcon={<i className="pe-7s-date text-success" />}
                 statsText="Upcoming Meeting"
                 statsValue="11/15"
                   statsIcon={<i className="fa fa-calendar-o" />}
@@ -128,31 +128,6 @@ class Dashboard extends Component {
             </Col>
           </Row>
 
-          <Row>
-            <Col md={6}>
-              <Card
-                id="chartActivity"
-                title="Fundraising Performance"
-                category="All products including Taxes"
-                stats="Data information certified"
-                statsIcon="fa fa-check"
-                content={
-                  <div className="ct-chart">
-                    <ChartistGraph
-                      data={dataBar}
-                      type="Bar"
-                      options={optionsBar}
-                      responsiveOptions={responsiveBar}
-                    />
-                  </div>
-                }
-                legend={
-                  <div className="legend">{this.createLegend(legendBar)}</div>
-                }
-              />
-            </Col>
-
-          </Row>
         </Grid>
       </div>
     );

@@ -34,12 +34,6 @@ const dashboardRoutes = [
     layout: "/admin"
   },
   {
-    path: "/login",
-    name: "Login",
-    component: Login,
-    layout: "/admin"
-  },
-  {
     path: "/user",
     name: "User Profile",
     icon: "pe-7s-user",
@@ -69,26 +63,12 @@ const dashboardRoutes = [
   },
   {
     path: "/maps",
-    name: "Find my Block",
+    name: "Find My Block",
     icon: "pe-7s-map-marker",
     component: Maps,
     layout: "/admin"
   },
-  {
-    path: "/notifications",
-    name: "Notifications",
-    icon: "pe-7s-bell",
-    component: Notifications,
-    layout: "/admin"
-  },
-  {
-    upgrade: true,
-    path: "/upgrade",
-    name: "Upgrade to PRO",
-    icon: "pe-7s-rocket",
-    component: Upgrade,
-    layout: "/admin"
-  }
+
 ];
 
 export default dashboardRoutes;
