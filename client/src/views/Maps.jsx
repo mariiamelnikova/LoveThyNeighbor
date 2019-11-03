@@ -20,10 +20,6 @@ import axios from 'axios';
 // react components used to create a google map
 import {GoogleMap, Marker, withGoogleMap, withScriptjs} from "react-google-maps";
 
-let tryt = () => {
-    return <Marker position={{lat: 40.7481, lng: -73.985428}}/>;
-};
-
 const CustomMap = withScriptjs(
     withGoogleMap(props => (
 
@@ -31,19 +27,15 @@ const CustomMap = withScriptjs(
             key={new Date().getTime()}
             onClick={props.onMouseOver}
             defaultZoom={20}
-            defaultCenter={{lat: 41.6654294, lng: -87.6168563}}
+            defaultCenter={{lat: props.users[0].nlat, lng: props.users[0].nlon}}
             defaultOptions={{
                 scrollwheel: false,
                 zoomControl: true
             }}
         >
-            <Marker position={{lat: 41.6654294, lng: -87.6168563}}/>
-            <Marker position={{lat: 41.6653294, lng: -87.6163563}}/>
-            <Marker position={{lat: 41.6655294, lng: -87.6168563}}/>
-            {/*{props.users.map((user) => {*/}
-                {/*console.log(user);*/}
-                {/*return <Marker position={{lat: 41.6654294, lng: -87.6168563}}/>;}*/}
-            {/*)}*/}
+            {props.users.map((t) => {
+                return <Marker position={{lat: t.lat, lng: t.lon}}/>;
+            })}
         </GoogleMap>
     ))
 );
@@ -51,10 +43,10 @@ const CustomMap = withScriptjs(
 
 function Maps({...prop}) {
 
-    const [users, setUsers] = useState(null);
+    const [users, setUsers] = useState([{nlat: 0, nlon: 0}]);
     let onMouseOver = async () => {
 
-        let res = await axios.get('http://localhost:8080/users/block/3');
+        let res = await axios.get('http://localhost:8080/users/block/' + Math.round(Math.random() * 10));
         setUsers(res.data);
     };
 

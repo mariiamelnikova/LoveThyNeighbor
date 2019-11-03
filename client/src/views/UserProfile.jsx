@@ -97,7 +97,7 @@ class UserProfile extends Component {
                           bsClass: "form-control",
                           placeholder: "Home Adress",
                           defaultValue:
-                            "Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09"
+                            "224 South Rand Rd"
                         }
                       ]}
                     />
@@ -109,14 +109,14 @@ class UserProfile extends Component {
                           type: "text",
                           bsClass: "form-control",
                           placeholder: "City",
-                          defaultValue: "Mike"
+                          defaultValue: "Chicago"
                         },
                         {
                           label: "Country",
                           type: "text",
                           bsClass: "form-control",
                           placeholder: "Country",
-                          defaultValue: "Andrew"
+                          defaultValue: "United States",
                         },
                         {
                           label: "Postal Code",
@@ -136,7 +136,7 @@ class UserProfile extends Component {
                             componentClass="textarea"
                             bsClass="form-control"
                             placeholder="Here can be your description"
-                            defaultValue="Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo."
+                            defaultValue="Friendly Neighbor Here"
                           />
                         </FormGroup>
                       </Col>
@@ -157,11 +157,9 @@ class UserProfile extends Component {
                 userName="michael24"
                 description={
                   <span>
-                    "Lamborghini Mercy
+                    "Friendly neighbor.
                     <br />
-                    Your chick she so thirsty
-                    <br />
-                    I'm in that two seat Lambo"
+                    Happy to provide my help whenever I can.
                   </span>
                 }
                 socials={

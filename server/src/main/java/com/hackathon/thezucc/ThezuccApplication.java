@@ -80,6 +80,9 @@ public class ThezuccApplication {
 
             int index = blockNumber % 10;
 
+            double random = new Random().nextDouble();
+            double SP = 0.0 + (random * (0.0004 - 0.0));
+            System.out.println(SP);
             User user = User.builder()
                     .firstName(first)
                     .lastName(last)
@@ -89,8 +92,8 @@ public class ThezuccApplication {
                     .fundraisers(fundraisers)
                     .nLat(coords.get(index).get(0))
                     .nLon(coords.get(index).get(1))
-                    .lat(coords.get(index).get(0) - (new Random().nextDouble() * 0 + (0.0009 - 0)))
-                    .lon(coords.get(index).get(1) - (new Random().nextDouble() * 0 + (0.0009 - 0)))
+                    .lat(coords.get(index).get(0) - SP)
+                    .lon(coords.get(index).get(1))
                     .build();
             usersRespository.save(user);
         }
