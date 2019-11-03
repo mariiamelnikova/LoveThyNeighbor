@@ -41,28 +41,28 @@ const dashboardRoutes = [
     layout: "/admin"
   },
   {
-    path: "/table",
+    path: "/events",
     name: "Events",
     icon: "pe-7s-note2",
     component: TableList,
     layout: "/admin"
   },
   {
-    path: "/typography",
-    name: "Fundraising",
+    path: "/fundraisers",
+    name: "Fundraisers",
     icon: "pe-7s-news-paper",
     component: Typography,
     layout: "/admin"
   },
   {
-    path: "/icons",
+    path: "/donate",
     name: "Donate",
-    icon: "pe-7s-science",
+    icon: "pe-7s-gift",
     component: Icons,
     layout: "/admin"
   },
   {
-    path: "/maps",
+    path: "/find_block",
     name: "Find My Block",
     icon: "pe-7s-map-marker",
     component: Maps,
